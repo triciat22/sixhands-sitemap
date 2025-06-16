@@ -1,12 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Six Hands Sitemap</title>
+  <meta charset="UTF-8">
+  <title>Six Hands – Sitemap & Info</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Six Hands",
+    "url": "https://sixhands.club",
+    "logo": "https://sixhands.club/logo.png",
+    "sameAs": [
+      "https://www.instagram.com/sixhandsclub",
+      "https://www.facebook.com/sixhandsclub"
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Six Hands",
+    "image": "https://sixhands.club/logo.png",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Amoy Street",
+      "addressLocality": "Singapore",
+      "addressCountry": "SG"
+    },
+    "telephone": "+65-6123-4567",
+    "url": "https://sixhands.club"
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What is Six Hands?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Six Hands is a Japanese-Australian salad brand redefining what it means to eat well. We make salads for people who don’t usually eat salads."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Where is Six Hands located?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our flagship store is located at Amoy Street, with other outlets opening soon."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Is Six Hands available for franchise?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Six Hands is currently open to franchise interest in Asia. Please contact us through our website for more information."
+      }
+    }]
+  }
+  </script>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 700px;
+      margin: 4rem auto;
+      padding: 0 1rem;
+      line-height: 1.6;
+    }
+    h1 { font-size: 2rem; }
+    .faq h2 { margin-top: 2rem; }
+  </style>
 </head>
 <body>
-    <h1>Welcome to Six Hands Sitemap</h1>
-    <p>This page confirms your custom domain is connected and working.</p>
+  <h1>Welcome to Six Hands</h1>
+  <p>This page is used to help search engines discover our structured data. Below is our basic company info and FAQs.</p>
+
+  <div class="faq">
+    <h2>What is Six Hands?</h2>
+    <p>Six Hands is a Japanese-Australian salad brand redefining what it means to eat well. We make salads for people who don’t usually eat salads.</p>
+
+    <h2>Where is Six Hands located?</h2>
+    <p>Our flagship store is located at Amoy Street, with other outlets opening soon.</p>
+
+    <h2>Is Six Hands available for franchise?</h2>
+    <p>Yes, Six Hands is currently open to franchise interest in Asia. Please contact us through our website for more information.</p>
+  </div>
 </body>
 </html>
